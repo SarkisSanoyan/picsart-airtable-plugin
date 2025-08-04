@@ -23,8 +23,8 @@ A powerful Airtable block that integrates with the Picsart API to automatically 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/picsart_bg_remover_upscale.git
-   cd picsart_bg_remover_upscale
+   git clone https://github.com/SarkisSanoyan/picsart-airtable-plugin.git
+   cd picsart-airtable-plugin
    ```
 
 2. **Install dependencies**:
