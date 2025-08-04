@@ -1,0 +1,24 @@
+{
+    "scripts": {
+        "lint": "ESLINT_USE_FLAT_CONFIG=false eslint frontend/**/*.{ts,tsx}",
+        "lint:fix": "ESLINT_USE_FLAT_CONFIG=false eslint frontend/**/*.{ts,tsx} --fix",
+        "type-check": "tsc --noEmit",
+        "dev": "block run",
+        "build": "block build"
+    },
+    "dependencies": {
+        "@airtable/blocks": "1.18.2",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0"
+    },
+    "devDependencies": {
+        "@types/react": "^19.1.9",
+        "@types/react-dom": "^19.1.7",
+        "@typescript-eslint/eslint-plugin": "^8.38.0",
+        "@typescript-eslint/parser": "^8.38.0",
+        "eslint": "^9.5.0",
+        "eslint-plugin-react": "^7.34.2",
+        "eslint-plugin-react-hooks": "^4.6.2",
+        "typescript": "^5.8.3"
+    }
+}
